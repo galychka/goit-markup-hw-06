@@ -706,7 +706,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 453px;
+    margin-left: auto;
     min-height: 80px;
 
 }
@@ -738,7 +738,7 @@ button {
 
 .subscribe-btn {
     position: relative;
-    width: 160px;
+    min-width: 160px;
     height: 40px;
     border-radius: 4px;
     background-color: var(--button-color);
@@ -750,10 +750,7 @@ button {
     position: absolute;
     width: 24px;
     height: 20px;
-    top: 50%;
-    left: 8px;
-    transform: translateY(-50%);
-
+    
     pointer-events: none;
 }
 
