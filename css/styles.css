@@ -718,23 +718,21 @@ button {
 .subscribe-form-container {}
 
 .subscribe-input {
+padding-left: 16px;
     width: 264px;
     height: 40px;
     border-radius: 4px;
     background-color: var(--subtitle-color);
     border: 1px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 ::placeholder {
-    display: flex;
-    
-    font-weight: 400;
-
+  
     font-size: 12px;
         line-height: 1.17px;
         letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
-
+        color:#FFFFFF;
 
 }
 
