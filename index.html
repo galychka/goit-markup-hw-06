@@ -373,8 +373,12 @@
           <textarea class="form-agreement" name="user_comment" id="user_comment" placeholder="Text input"></textarea>
         
         <label class="form-check">
-          <input class="form-check-input" type="checkbox" name="modal_agreement">
-          <span class="form-check-text">I accept the terms and conditions of the <a class="agreement-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span>
+          <input class="form-check-input visually-hidden" type="checkbox" name="modal_agreement">
+          <svg class="form-custom-check" width="16" height="16">
+            <use class="uncheck" href="./images/icons.svg#uncheck"></use>
+            <use class="check" href="./images/icons.svg#check"></use>
+          </svg>
+          <span class="form-check-text"> I accept the terms and conditions of the <a class="agreement-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span>
         </label>
         <button class="hero-button" type="submit">Send</button>
       </form>
